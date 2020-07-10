@@ -1,0 +1,139 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url(vieux-fond-texture-mur-blanc.jpg);
+}
+
+.navbar-MenuTop{
+    background-color: rgb(255, 255, 254);
+    /*
+    background-image: url(vieux-fond-texture-mur-blanc3.jpg); */
+}
+
+.corps{
+    justify-content: center;
+}
+
+.doc{
+    display: inline-block;
+    /*background-color: #390099;*/
+    background-image: url(texture-papier-aquarelle-bleu-clair.jpg);
+    color: #390099;
+    margin-bottom: 0em;
+    border-left: #390099 solid 2px;
+    border-right: #390099 solid 2px;
+    border-top: #390099 solid 2px;
+    border-radius: 1em;
+    }
+
+h1{
+    text-align: center;
+    color: #ff0054;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+h2{
+    text-align: center;
+    color: #fdce21;
+    font-weight: bolder;
+}
+
+.inscripH2{
+    padding: 2em 0em;
+}
+
+.formulaire{
+    /*display: inline-block;*/
+    margin: 0em 4em 0em 4em;
+    padding: 1em 12em 2em 12em;
+    display: inline-flexbox;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(texture-papier-aquarelle-blanc-fond-Copie.jpg);
+    border-top: solid 2px #390099;
+    border-bottom: #390099 solid 3px;
+    border-radius: 0.5em;
+    /*border-right: #fdce21 solid 1px;*/
+}
+
+.connexion{
+    justify-content: center;
+}
+
+.truc{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.machin{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.txtSouvenir{
+    padding: 0em 1em;
+}
+
+.civilite{
+    margin-right: 0.2em;
+}
+
+.input2{
+    margin-top: 1.3em;
+    margin-right: 0.8em;
+}
+
+.txtInput{
+    margin-left: 1em;
+
+}
+.txtInput2{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+h4{
+    font-size: 1em;
+}
+    
+.valider{
+    justify-content: center;
+    padding: 1em;
+}
+
+.footer{
+    display: inline-flex;
+    justify-content: center;
+    height: 3em;
+    width: 100%;
+    background-color: #fdce21;
+}
+
+.imgSaut{
+    overflow: hidden;
+}
+.imgHeader{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.btnProfil{
+    border: solid 4px #390099;
+    background-color: #ff0054;
+    margin-top: 2em;
+}
+
+.navFooter{
+    display: inline-flexbox;
+    justify-content: center;
+}
+
+.logoNav2{
+    margin: 0em 0em 1em 1em;
+    padding: 0em 0em 1em 1em;
+}
+

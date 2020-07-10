@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="LogoNPS1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@500&display=swap" rel="stylesheet"> 
+    
+    <link rel="icon" type="image/png" href="LogoNPS1.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-formulaire.css">
+    <title>Fil Rouge Accueil</title>
+</head>
+<body>
+
+
+<!--Logo Header-->
+    <div class="nav logoTop flex-column align-content-center">
+        <form class="form-inline my-2 my-lg-0">
+          <a class="navbar-brand logoNav LogoNav" href="index.html">
+              <img src="LogoNPS1.png" width="200" height=auto class="d-inline-block align-top" alt="" loading="lazy">  
+          </a>   
+        </form>
+      </div>  
+  
+<!--Barre nav Header-->  
+    <nav class="navbar navbar-expand-lg navbar-MenuTop shadow">    
+  <!--      <a class="navbar-brand logoNav LogoNav" href="#">
+              <img src="LogoNPS1.png" width="200" height=auto class="d-inline-block align-top" alt="" loading="lazy">  
+          </a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+<!--Rubriques Nav Barre-->  
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Evènements</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Annonces</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Articles</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Communaute.html">Communauté</a>
+              </li>
+              <li>
+                  <a class="logoNav my-2 my-sm-0my-2 my-sm-0" href="https://www.facebook.com/collectif.nous.parents.solo/">
+                      <img src="logoFacebook.png" width="60" height=auto class="d-inline-block" alt="" loading="lazy">  
+                  </a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+  <!--           <input class="form-control mr-sm-2" type="search" placeholder="Search"> 
+              <a class="logoNav my-2 my-sm-0my-2 my-sm-0" href="https://www.facebook.com/Villaptitude">
+                  <img src="logoFacebook.png" width="100" height=auto class="d-inline-block" alt="" loading="lazy">  
+              </a> --> 
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button> 
+              <a class="btn btnInscription" href="#" role="button">Inscription</a>
+              <a class="btn btnConnexion" href="#" role="button">Connexion</a> 
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>  
+          </form>
+      </div>
+    </nav>
+    <br>
+    <br>
+  
+
+<div class="container corps">
+
+  <div class="doc shadow">
+
+    <h1>Nous-parents-solo</h1>
+    <br>
+    <h2>Connexion</h2>
+    <br>
+<!--Connexion-->
+    <form>
+        <div class="row connexion">
+          <div class="col-10 truc">
+            <!--Pseudo-->
+            <div class="pseudo col-6 col-sm-5 col-xl-5 my-1">
+                <label class="sr-only" for="inlineFormInputGroupUsername">Pseudo</label>
+                <input type="text" class="form-control" id="inlineFormInputName" placeholder="Pseudo">
+            </div>
+            <!--Email-->
+            <div class="email col-6 col-sm-5 col-xl-5 my-1">
+                <label class="sr-only" for="password">Email</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Mot de passe ***">
+                </div>
+            </div>
+            <!--valider-->
+            <div class="btnValider col-3 col-sm-2 col-xl-1 my-auto">
+                <button type="submit" class="btn-dark valider">Valider</button>
+            </div>
+          </div>  
+            <!--se souvenir-->
+          <div class="machin">  
+            <div class="col-12 cl-3 my-1">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                    <label class="form-check-label txtSouvenir" for="autoSizingCheck2">
+                     Se souvenir de moi
+                    </label>
+                </div>
+            </div>
+          </div>
+        </div>
+    </form>
+
+<!--Inscription-->
+  <div class="row formulaire shadow 2">
+      
+  <div class="col-12 inscripH2">
+    <h2>Inscription</h2>
+  </div>    
+    <br>
+
+    <form>
+        <fieldset class="form-group">
+            <!--Nom Prenom-->
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Prénom">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nom">
+                </div>
+            </div>  
+            <br>           
+            <!--Civilité-->
+            <div class="row">
+                <legend class=" civilite col-form-label col-sm-6 col-md-2 col-xl-2 pt-0">Civilité
+                  </legend>
+                <div class="col-sm-6 col-md-10 col-xl-10 ">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label txtInput" for="gridRadios1">
+                        Madame
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input input2" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label txtInput2" for="gridRadios2">
+                        Monsieur
+                      </label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--Pseudo Email-->
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Pseudo">
+                </div>
+                <div class="col">
+                    <input type="email" class="form-control" placeholder="Email@exemple.com">
+                </div>
+            </div>  
+            <br>
+            <!--Mot de passe-->
+            <div class="row">
+                <div class="col">
+                    <label for="inputPassword5">Mot de passe
+                    </label>
+                    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                    <small id="passwordHelpBlock" class="form-text text-muted" placeholder="Mot de passe">
+                    Votre mot de passe doit contenir de 8 à 20 caractères, dont des lettres et des nombres.
+                    </small>
+                </div>    
+            </div>    
+            <br>
+            <!--Confirmation mot de passe-->
+            <div class="row">
+                <div class="col">
+                    <input type="password" class="form-control" placeholder="Confirmez le mot de passe">
+                </div>           
+            </div>  
+            <br>
+            <!--Adresse rue-->
+            <div class="form-group">
+                <label for="inputAddress">Addresse</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="12 rue St ...">
+            </div>     
+            <!--Adresse ville-->     
+            <div class="form-row">
+                <div class="form-group col-md-8">
+                  <label for="inputCity">Ville</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="Lyon">
+                </div>
+            <!--<div class="form-group col-md-4">
+                  <label for="inputState">Code postal</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div> -->
+                <div class="form-group col-md-4">
+                  <label for="inputZip">CP</label>
+                  <input type="text" class="form-control" id="inputZip" placeholder="69000">
+                </div>
+            </div>
+            <!--enfants-->
+            <div class="row justify-content-aound">
+                <!--enfant 01-->
+                <div class="col-10 col-lg-4 col-xl-3 mx-auto">
+                    <h4>Enfant 1</h4>
+                    <!--fille-->
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadiosEnfant1" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label txtInput" for="gridRadios1">
+                                  Fille 
+                                </label>
+                            </div>
+                    <!--garçon-->  
+                      <div class="form-check">
+                        <input class="form-check-input input2" type="radio" name="gridRadiosEnfant1" id="gridRadios2" value="option2">
+                        <label class="form-check-label txtInput2" for="gridRadios2">
+                          Garçon
+                        </label>
+                      </div>
+                    <!--Année de naissance-->
+                    <label for="inputNumber">Année de naissance</label>
+                    <select id="inputNumber" class="form-control">
+                          <option selected>2000</option>
+                          <option>2001</option>
+                          <option>2002</option>
+                          <option>2003</option>
+                          <option>2004</option>
+                          <option>2005</option>
+                          <option>2006</option>
+                          <option>2007</option>
+                          <option>2008</option>
+                          <option>2009</option>
+                          <option>2010</option>
+                          <option>2011</option>
+                          <option>2012</option>
+                          <option>2013</option>
+                          <option>2014</option>
+                          <option>2015</option>
+                          <option>2016</option>
+                          <option>2017</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                          <option>2021</option>
+                          <option>2022</option>
+                          <option>2023</option>
+                          <option>2024</option>
+                          <option>2025</option>
+                          <option>2026</option>
+                          <option>2027</option>
+                          <option>2028</option>
+                          <option>2029</option>
+                          <option>2030</option>
+                          <option>2031</option>
+                    </select>
+                </div>
+                <!--enfant 02-->
+                <div class="col-10 col-lg-4 col-xl-3 mx-auto">
+                    <h4>Enfant 2</h4>
+                    <!--fille-->
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadiosEnfant2" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label txtInput" for="gridRadios1">
+                          Fille 
+                        </label>
+                      </div>
+                    <!--garçon-->  
+                      <div class="form-check">
+                        <input class="form-check-input input2" type="radio" name="gridRadiosEnfant2" id="gridRadios2" value="option2">
+                        <label class="form-check-label txtInput2" for="gridRadios2">
+                          Garçon
+                        </label>
+                      </div>
+                    <!--Année de naissance-->
+                    <label for="inputNumber">Année de naissance</label>
+                    <select id="inputNumber" class="form-control">
+                          <option selected>2000</option>
+                          <option>2001</option>
+                          <option>2002</option>
+                          <option>2003</option>
+                          <option>2004</option>
+                          <option>2005</option>
+                          <option>2006</option>
+                          <option>2007</option>
+                          <option>2008</option>
+                          <option>2009</option>
+                          <option>2010</option>
+                          <option>2011</option>
+                          <option>2012</option>
+                          <option>2013</option>
+                          <option>2014</option>
+                          <option>2015</option>
+                          <option>2016</option>
+                          <option>2017</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                          <option>2021</option>
+                          <option>2022</option>
+                          <option>2023</option>
+                          <option>2024</option>
+                          <option>2025</option>
+                          <option>2026</option>
+                          <option>2027</option>
+                          <option>2028</option>
+                          <option>2029</option>
+                          <option>2030</option>
+                          <option>2031</option>
+                    </select>
+                </div>
+                <!--enfant 03-->
+                <div class="col-10 col-lg-4 col-xl-3 mx-auto">
+                    <h4>Enfant 3</h4>
+                    <!--fille-->
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadiosEnfant3" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label txtInput" for="gridRadios1">
+                          Fille 
+                        </label>
+                      </div>
+                    <!--garçon-->  
+                      <div class="form-check">
+                        <input class="form-check-input input2" type="radio" name="gridRadiosEnfant3" id="gridRadios2" value="option2">
+                        <label class="form-check-label txtInput2" for="gridRadios2">
+                          Garçon
+                        </label>
+                      </div>
+                    <!--Année de naissance-->
+                    <label for="inputNumber">Année de naissance</label>
+                    <select id="inputNumber" class="form-control">
+                          <option selected>2000</option>
+                          <option>2001</option>
+                          <option>2002</option>
+                          <option>2003</option>
+                          <option>2004</option>
+                          <option>2005</option>
+                          <option>2006</option>
+                          <option>2007</option>
+                          <option>2008</option>
+                          <option>2009</option>
+                          <option>2010</option>
+                          <option>2011</option>
+                          <option>2012</option>
+                          <option>2013</option>
+                          <option>2014</option>
+                          <option>2015</option>
+                          <option>2016</option>
+                          <option>2017</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                          <option>2021</option>
+                          <option>2022</option>
+                          <option>2023</option>
+                          <option>2024</option>
+                          <option>2025</option>
+                          <option>2026</option>
+                          <option>2027</option>
+                          <option>2028</option>
+                          <option>2029</option>
+                          <option>2030</option>
+                          <option>2031</option>
+                    </select>
+                </div>
+                <!--enfant4-->
+                <div class="col-10 col-lg-4 col-xl-3 mx-auto">
+                    <h4>Enfant 4</h4>
+                    <!--fille-->
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadiosEnfant4" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label txtInput" for="gridRadios1">
+                          Fille 
+                        </label>
+                      </div>
+                    <!--garçon-->  
+                      <div class="form-check">
+                        <input class="form-check-input input2" type="radio" name="gridRadiosEnfant4" id="gridRadios2" value="option2">
+                        <label class="form-check-label txtInput2" for="gridRadios2">
+                          Garçon
+                        </label>
+                      </div>
+                    <!--Année de naissance-->
+                    <label for="inputNumber">Année de naissance</label>
+                    <select id="inputNumber" class="form-control">
+                          <option selected>2000</option>
+                          <option>2001</option>
+                          <option>2002</option>
+                          <option>2003</option>
+                          <option>2004</option>
+                          <option>2005</option>
+                          <option>2006</option>
+                          <option>2007</option>
+                          <option>2008</option>
+                          <option>2009</option>
+                          <option>2010</option>
+                          <option>2011</option>
+                          <option>2012</option>
+                          <option>2013</option>
+                          <option>2014</option>
+                          <option>2015</option>
+                          <option>2016</option>
+                          <option>2017</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                          <option>2021</option>
+                          <option>2022</option>
+                          <option>2023</option>
+                          <option>2024</option>
+                          <option>2025</option>
+                          <option>2026</option>
+                          <option>2027</option>
+                          <option>2028</option>
+                          <option>2029</option>
+                          <option>2030</option>
+                          <option>2031</option>
+                    </select>
+                </div>
+            </div>
+            <!--Enregistrer-->
+            <div class="row valider">
+              <div class="form-group">
+                <!--<div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>-->
+              </div>
+              <!--Bouton original
+              Je le modifie pour qu'il ramène automatiquement sur page profil
+              Mais attention !!!
+              Il n'enregistre plus les infos inscription-->
+<!--Bouton origin            <button type="submit" class="btn btn-primary" href="profil.html">Enregistrer</button>  -->   
+<!--Bouton de remplacement pour qu'il amène sur le profil directe mais sans enregistrer infos inscription
+A modifier-->               
+              <a class="btn btnProfil" href="profil.html" role="button">Valider</a>
+
+            </div>         
+        </fieldset>
+    </form>
+  </div>
+
+<!--Image bas de page-->  
+<div class="row imgBas no-margin">
+    <div class="col-6 no-margin imgSaut">
+        <img class="imgHeader" src="SautOmbreGordonJohnsonPixabayRecadre.png" alt="">
+    </div> 
+    <div class="col-6 no-margin">
+       <img class="imgHeader" src="SautOmbreGordonJohnsonPixabayRecadre.png" alt="">
+    </div>
+</div> 
+
+<!--footer-->  
+    <div class="NavFixBottom footer">
+        <nav class="footer navbar fixed-bottom align-content-flex-end">
+            <div class="nav navFooter">
+                <form class="form-inline my-2 my-lg-0">
+                    <a class="navbar-brand logoNav logoNav2" href="index.html">
+                        <img src="LogoNPS1.png" width="120" height=auto class="d-inline-block align-top" alt="" loading="lazy">  
+                    </a>   
+                  </form>
+            </div>
+        </nav>
+    </div>
+
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>    
