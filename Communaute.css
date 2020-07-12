@@ -1,21 +1,11 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    background-image: url(vieux-fond-texture-mur-blanc.jpg);
-}
-
-.navbar-MenuTop{
-    background-color: rgb(255, 255, 254);
-    font-family: Arial, Helvetica, sans-serif;
-    /*
-    background-image: url(vieux-fond-texture-mur-blanc3.jpg); */
-}
-
 .logoTop{
     margin-left: 2em;
+    background-color:  #f7f3fe;
 }
 
 .nav-item{
     padding: 0em 1em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .logoNav{
     padding: 0em 1em;
@@ -69,162 +59,159 @@ body{
     overflow: hidden;
 }
 
-.corps{
-    justify-content: center;
+/*Fin Nav Top*/
+
+
+
+body{
+    background-color: #f7f3fe;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-right: -7px;
 }
 
-.doc{
+.corps{
     justify-content: center;
-    /*background-color: #390099;*/
-    background-image: url(texture-papier-aquarelle-bleu-clair.jpg);
-    color: #390099;
-    margin-bottom: 0em;
-    border-left: #390099 solid 2px;
-    border-right: #390099 solid 2px;
-    border-top: #390099 solid 2px;
-    border-radius: 1em;
-    }
+    /*display: grid;
+    display: flex;
+    grid-auto-rows: 100%;*/
+    margin: none;
+    background-image: url(texture-papier-aquarelle-blanc-fond.jpg);
+}
 
-h1{
+H1{
     text-align: center;
-    color: #390099;
-    font-weight: bold;
     margin-top: 1em;
+    color: #fac403;
+    font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
 }
 
 h2{
-    text-align: center;
-    color: #fdce21;
-    font-weight: bolder;
-}
-
-/*
-.h2connexion{
-    text-align: center;
-    color: #ff0054;
-    font-weight: bolder;
-} */
-
-.inscripH2{
-    padding: 2em 0em;
-}
-
-.formulaire{
-    margin: 0em 4em 0em 4em;
-    padding: 1em 4em 2em 4em;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(texture-papier-aquarelle-blanc-fond-Copie.jpg);
-    border-top: solid 2px #390099;
-    border-bottom: #390099 solid 3px;
-    border-radius: 0.5em;
-    /*border-right: #fdce21 solid 1px;*/
-}
-
-.connexion{
-    justify-content: center;
-}
-
-.truc{
-    display: inline-flex;
-    justify-content: center;
-}
-
-
-.txtSouvenir{
-    padding: 0em 1em;
-    color: #fdce21;
-}
-
-.oublie{
-    color: #fdce21;
-    height: 2em;
-}
-
-.souvenir{
-    height: 2em;
-}
-
-.btnValider{
-    display: inline-flex;
-    justify-content: center;
-}
-
-.piedConnect{
-    display: inline-flex;
-    height: 3em;
-}
-
-.civilite{
-    margin-right: 0.2em;
-}
-
-.confirme{
-    margin-top: 2em;
-}
-
-.enfant{
-    justify-content: center;
-}
-
-.enfant label{
-    padding: 0.5em;
-}
-
-.input2{
-    margin-top: 1.3em;
-    margin-right: 0.8em;
-}
-
-h4{
-    padding: 1em;
-    font-size: 1em;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.txtInput{
-    margin-left: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.txtInput2{
-    margin-top: 1em;
-    margin-left: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-    
-.enregistrer{
-    justify-content: center;
-
-}
-.valider2{
-    margin-top: 1em;
-    padding: 0.5em;
-    border-radius: 20px;
-    background-color: #fdce21;
-    border: #390099 solid 2px;
-}
-
-.valider{
-    padding: 0.5em;
-    border-radius: 20px;
-    background-color: #ff0054;
-    border: #390099 solid 2px;
+    padding: 0em 0em 1em 3em;
+    color: #390099;
+    margin: none;
 }
 
 .piedPage{
-    padding-top: 5em;
+    height: 10em;
+}
+
+.asideNav{
+    margin: 8em 3em 20em 0em;
+}
+
+#menu {
+    padding: 1em 0em ;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+	text-indent: 0.5em;
+	color: #fac403;
+    border-left: 1px solid #390099;
+    border-radius: 20px;
+}
+
+#menu li {
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.asideBas{
+    margin-bottom: 0em;
+}
+
+.margebas{
+    height: 10em;
+}
+.che{
+    padding: 30em auto;
+    height: 12%;
+}
+
+.centrage{
+    height: 1em;
+}
+
+.imgChenille{
+    width: 120%;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.imgPapillon{
+    width: 120%;
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+    margin-left: 2em;
+}
+
+.imgMain{
+    width: 120%;
+    margin-bottom: 0em;
+    margin-left: 2em;
+    margin-top: 1em;
 }
 
 
+.NPS{
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+.famille{
+    padding-bottom: 4em;
+}
+
+.groupe{
+    padding-bottom: 4em;
+}
+
+.part{
+    padding-bottom: 6em;
+}
+
+.logoVA{
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    margin: 2em;
+}
+
+.logoNounou{
+    width: 80%;
+    height: auto;
+    padding: 2em;
+    margin: 2em;
+}
+
+.logoSimplon{
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    margin: 2em;
+}
+
+.logoLyon{
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    margin: 2em;
+}
+
+
+/*footer*/
 .MonFooter {
-    min-height: 100%;
     grid-template-rows: auto 1fr auto;
     background-position: bottom;
-    max-height: 5em;
     align-items: center;
 }
     
@@ -252,7 +239,7 @@ font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 0.2em;
     font-size: 1vw;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
     
 .btnProfil{
@@ -291,6 +278,36 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
 }
     
-    
-
-
+/*
+@include media-breakpoint-up(md) { 
+.asideNav{
+    display: inline;
+    margin: 12em 3em 20em 0em;
+}
+#menu {
+    left: 2px;
+    top: 5%;
+    left: 10%;
+    width: 200px;
+    margin: 0 0 0 3em;
+    padding: 1em 0em 2em 0em;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+	text-indent: 0.5em;
+	color: #fac403;
+   	border: 1px solid #390099;
+    border-radius: 10px 35px 10px 10px;
+  }
+ 
+#menu li {
+    margin: 0; 
+  }
+  
+#menu a {
+    text-decoration: none;
+	color: inherit;
+  }
+}
+*/

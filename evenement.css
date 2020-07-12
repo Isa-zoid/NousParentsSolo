@@ -1,0 +1,410 @@
+body{
+    margin: none;
+    padding: none;
+    /*
+    margin-right: -7px;*/
+    background-image: url(vieux-fond-texture-mur-blanc.jpg);
+
+}
+
+.logoTop{
+    margin-left: 0em;
+    background-color:  #f7f3fe;
+}
+
+.nav-item{
+    padding: 0em 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoNav{
+    padding: 0em 1em;
+}
+
+.btnInscription{
+    border: solid 2px #390099;
+    background-color: white;
+    color: #ff0054;
+    padding: 0em 0.2em;
+    margin-right: 0.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.btnConnexion{
+    border: solid 2px #390099;
+    background-color: white;
+    color:#ff0054;
+    padding: 0em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+.fouleTop{
+    background-color: #f7f3fe;
+    overflow: hidden;
+}
+
+.imgSaut{
+    overflow: hidden;
+}
+
+.imgHeader{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.taches{
+    width: 100%;
+    height: 75%;
+    max-height: 75%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+/*
+.tachesToatal{
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}*/
+/*fin header*/
+
+
+/*footer*/
+.MonFooter {
+    min-height: 100%;
+    grid-template-rows: auto 1fr auto;
+    background-position: bottom;
+    max-height: 5em;
+    align-items: center;
+}
+    
+.navFooter{
+background-color: rgba(253, 206, 33, 0.9);
+border-radius: 30px 30px 0px 0px;
+max-width: 100%;
+}
+    
+.btnFooterInscrip{
+    border: solid 2px #390099;
+    border-radius: 15px;
+    background-color: #ff0054;
+    color: white;
+    padding: 0.2em;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.btnFooterConnex{
+    border: solid 2px #390099;
+    border-radius: 15px;
+    background-color: #ff0054;
+    color: white;
+    padding: 0.2em;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.btnProfil{
+    background-color: #390099;
+    color: white;
+    border: #ff0054 3px solid;
+    border-radius: 50%;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnProfilFooter{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.NavItemsFooter{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnFAQ{
+    border-radius: 15px;
+    background-color: #fac403;
+    color: #390099;
+    padding: 0.2em 0.4em;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnContact{
+    border-radius: 15px;
+    background-color: #fac403;
+    color: #390099;
+    padding: 0.2em 0.4em;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*fin footer*/
+
+
+body{
+    background-color: #f7f3fe;
+    font-family: 'Raleway', sans-serif;
+    }
+
+.basPage{
+    height: 5em;
+}
+    
+
+H1{
+    text-align: center;
+    margin-top: 1em;
+    color: #390099;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h3{
+    color: #fdce21;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+h2{
+    color: #ff0054;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+h5{
+    color: #ff0054;
+    text-align: center;
+}
+
+
+.titre{
+    border-top: solid 2em #fcf5f43a;
+    border-top: solid 1em #fcf5f477;
+    border-radius: 5em;
+}
+
+.left{
+    justify-content: center;
+    background-image: url(texture-papier-aquarelle-blanc-fond.jpg);
+    border: solid 1px rgb(164, 163, 165);
+}
+
+.presentation h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #fac403;
+}
+
+.presentation{
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #390099;
+    padding-left: 1.5em;
+}
+
+.TextColonne1{
+    text-align: left;
+    margin-top: 2em;
+    padding-left: 2.5em;
+    padding-right: 2em;
+    background-color: rgb(240, 240, 240);
+    opacity: 0.7;
+    color: #290070;
+    border: white solid 5px;
+    border-style: dotted;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TextColonne{
+    text-align: left;
+    margin-top: 2em;
+    padding-right: 2em;
+    padding-left: 1em;
+    background-color: rgb(240, 240, 240);
+    opacity: 0.7;
+    color: #290070;
+    border: white solid 5px;
+    border-style: dotted;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TextColonne .TextColonne1, h4{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2em;
+    color: #390099;
+}
+
+.TextColonne .TextColonne1, h5{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.LienFB{
+    text-align: center;
+}
+
+.LienEvent{
+    text-align: center;
+}
+
+.right{
+    justify-content: center;
+    border: solid 1px rgb(164, 163, 165);
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightTop h5{
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.rightTop{
+    max-width: 100%;
+}
+
+.selectEvent{
+    color: #290070;
+    padding: 1em 0em;
+    margin: 0.7em 0em;
+}
+
+#ThemeEvenement, #organisateurEvenement, #organisateurEvenementCherche, #ThemeEvenementCherche{
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+    padding: 0.4em 0.5em;
+}
+
+.txtTelecharger{
+    max-width: 100%;
+}
+
+
+.ligne{
+    border: solid 1px rgb(164, 163, 165);
+}
+
+.TitreOrgagniser{
+    justify-content: center;
+}
+
+.rightBottom h5{
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.rightBottom p, .selecEvent, .Nom, .Email, .ChoixEvent, .DateEvent{
+    padding-bottom: 0.7em;
+}
+
+.ValiderEvent{
+    display: grid;
+    justify-content: center;
+    padding: 2em 0em;
+}
+
+.mrgCaroussel{
+    padding: 0.7em 0em;
+}
+
+.mrgCaroussel .imgCaroussel{
+    display: grid;
+    justify-content: center;
+}
+/*Fin premiere partie*/
+
+
+.espace{
+    padding: 5em;
+}
+
+/*section evenements liste*/
+.p1{
+    color: #290070;
+    font-size: 0.7em;
+}
+
+.container2 p{
+    color: #290070;
+}
+
+.container2 h3{
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2{
+    background-color: rgb(246, 246, 246);
+    border: solid 2px #11007025;
+    display: flex;
+    justify-content: center;
+}
+
+.espace2{
+    padding: 2em;
+}
+
+.bodyEvent{
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #390099;
+    padding-left: 1.5em;
+}
+
+.card1{
+    background-color: whitesmoke;
+    padding: 1em 0em;
+    justify-content: center;
+}
+
+.card1-title{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+.card1text{
+    padding: 2em;
+}
+
+.imagecard1{
+    max-width: 100%;
+    height: auto;
+}
+
+.btnInscriptionEvent{
+    border: solid 2px #390099;
+    border-radius: 15px;
+    background-color: #fac403;
+    color: white;
+    padding: 0.4em;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}

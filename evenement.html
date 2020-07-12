@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="LogoNPS1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@500&display=swap" rel="stylesheet"> 
+    
+    <link rel="icon" type="image/png" href="LogoNPS1.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="evenement.css">
+    <title>Fil Rouge Evenements</title>
+</head>
+<body>
+    
+<!--Logo top Nav barre-->
+    <div class="nav logoTop flex-column align-content-center">
+      <form class="form-inline my-2 my-lg-0">
+        <a class="navbar-brand logoNav LogoNav" href="index.html">
+            <img src="LogoNPS1.png" width="250" height=auto class="d-inline-block align-top" alt="" loading="lazy">  
+        </a>  
+      </form>
+    </div>  
+
+<!--Nav Barre-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">    
+<!--      <a class="navbar-brand logoNav LogoNav" href="#">
+            <img src="LogoNPS1.png" width="200" height=auto class="d-inline-block align-top" alt="" loading="lazy">  
+        </a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+<!--liens Nav Barre-->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="evenement.html">Evènements</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="annonce.html">Annonces</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="article.html">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Communaute.html">Communauté</a>
+            </li>
+            <li>
+                <a class="logoNav my-2 my-sm-0my-2 my-sm-0" href="https://www.facebook.com/collectif.nous.parents.solo/">
+                    <img src="logoFacebook.png" width="60" height=auto class="d-inline-block" alt="" loading="lazy">  
+                </a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+<!--           <input class="form-control mr-sm-2" type="search" placeholder="Search"> 
+            <a class="logoNav my-2 my-sm-0my-2 my-sm-0" href="https://www.facebook.com/Villaptitude">
+                <img src="logoFacebook.png" width="100" height=auto class="d-inline-block" alt="" loading="lazy">  
+            </a> --> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <a class="btn btnInscription" href="Inscription.html" role="button">Inscription</a>
+            <a class="btn btnConnexion" href="Inscription.html" role="button">Connexion</a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+        </form>
+    </div>
+  </nav>
+
+<!--Img Header-->
+<div class="container-fluid imgHeader">
+<!--img Saut ombre-->
+ <div class="row no-margin">
+     <div class="col-6 no-margin imgSaut">
+         <img class="imgHeader" src="SautOmbreGordonJohnsonPixabayRecadre.png" alt="">
+     </div> 
+     <div class="col-6 no-margin">
+        <img class="imgHeader" src="SautOmbreGordonJohnsonPixabayRecadre.png" alt="">
+     </div>
+ </div>     
+<!--img Taches-->
+   <!--pb cette col-12 crée marges mais permet caller mes col-3...-->
+ <div class="col-12 tachesTotal form-inline">
+    <div class="col-3 taches form-inline">
+         <img src="Taches-multicolores-fond-blanc-etire.jpg" alt="">
+     </div>
+     <div class="col-3 taches form-inline">
+        <img src="Taches-multicolores-fond-blanc-etire.jpg" alt="">
+    </div>
+    <div class="col-3 taches form-inline">
+        <img src="Taches-multicolores-fond-blanc-etire.jpg" alt="">
+    </div>
+    <div class="col-3 taches form-inline">
+        <img src="Taches-multicolores-fond-blanc-etire.jpg" alt="">
+    </div>
+ </div>   
+</div> 
+  
+
+<!--Titres--> 
+<div class="container">
+    <div class="row"> 
+         <div class="titre col-12">
+             <h1>Nous Parents Solo Lyon</h1>
+             <h3>Les évènements</h3>
+         </div>
+         <!--Left presentation-->
+         <div class="col-sm-8 col-md-8 col-lg-9 left">
+           <div class="col-10 presentation">
+              <h4>Evènements Nous Parents Solo</h4>
+              <p>
+                Se renconter, agrandir son cercle de contact, 
+                <br>
+                envisager des échanges 
+                ou troc de garde en toute confiance.
+                <br>
+                S'enrichir, apprendre,
+                passer un bon moment.
+              </p>
+           </div>
+            <!--Participez ou organisez-->
+            <div class="row">
+                <!--participez Inscription-->
+                <div class="col-sm-12 col-md-6 TextColonne1">
+                    <h4>Participez à un évènements Nous Parent Solo </h4>
+                    <h5>Recherchez votre évènement</h5>
+                    <p>
+                    Rendez-vous dans l'onglet 
+                    <a class="toggler" href="#recherche">recherche</a> en haut à droite de la page.
+                    <br>
+                    Effectuez une recherche par date ou par thème
+                    <br>
+                     Parcourez nos évènements Nous Parents Solo et voyez les évènements 
+                    qui vous intéressent.
+                    </p>
+                    <h5>Inscrivez-vous</h5>
+                    <p>Ciquez sur l'évènement qui vous tente : vous accédez à toutes les information
+                        et à la rubrique inscription.
+                    <br>
+                    Complétez les informations demandées, validez, vous êtes inscrit!
+                    <br>
+                    Les évènements où vous êtes inscrit apparaissent dans "mon calendrier" 
+                    et dans la rubrique "mes évmènements" (mon profil).
+                    <br>
+                    Vous pouvez vous désinscrire à tout moment : cliquez sur l'évènement, cochez se désinscrire,
+                    validez.
+                    </p>
+                    <p>N'hésitez pas à laisser vos commentaires suite à l'évènement (dans la page de l'évènement
+                        concerné)!
+                    </p>
+                </div>
+                <!--Participez Organisez-->
+                <div class="col-sm-12 col-md-6 TextColonne">
+                    <h4>Organisez vos propres évènements </h4>
+                    <p>
+                        <br>
+                    Vous aimez les pique-nique? Vous projetez une ballade nature? Vous aimeriez partager en 
+                    petit communté un dimanche activité cuisine ou jeu de société ?
+                    <br>
+                    Pourquoi ne pas organiser un évènement?
+                    <br>
+                    Rien de plus simple : avec notre formulaire organisez simplement votre évènement.
+                    <br>
+                    suivez les inscriptions, répondez aux questions.
+                    <br>
+                    Choisissez si vous souhaitez créer un évènement public ou réservé à un groupe.
+                    <br>
+                    <h5>publiez</h5>
+                    <br>
+                    Pour organiser votre évènement rendez-vous dans la rubrique <a class="toggler" href="#organisez">
+                    organiser</a> à droite de la page.
+                   </p>
+       
+                    <h4>Vous souhaitez organiser un évènement et vous avez besoin d'aide? </h4>
+                    <p>
+                    Contactez-nous 
+                    <br>(bouton contact tout en bas de la page). 
+                    <br>
+                    Présentez-nous votre projet : nous ferons en sorte de
+                    vous aider et même de vous proposerons des ressources ou des solutions.
+                    </p>
+                </div>
+            </div>
+            <div class="row LienFB et articles">
+                <!--Facebook-->
+                <!--Lien evenements-->
+                <div class="col-12 col-md-6 TextColonne1 LienEvent">
+                    <h4>Les annonces des évènements Nous Parents Solo Lyon</h4>
+                    <p>
+                        Retrouvez tous les évènements Nous Parents Solo Lyon 
+                        <a class="toggler" href="#evenements">ICI</a> 
+                        <br>
+                        Ou rendez-vous à l'onglet                     
+                        <a class="toggler" href="#recherche">"Recherche"</a> 
+                        en haut à droite de la page.
+                    </p>
+                </div>
+                <!--Lien FB-->           
+                <div class="col-12 col-md-6 TextColonne1 LienFB">
+                    <h4>Retrouvez tous les évènements Nous Parents Solo Lyon sur Facebook</h4>
+                    <p>
+                        <a class="logoNav my-2 my-sm-0my-2 my-sm-0" href="https://www.facebook.com/collectif.nous.parents.solo/">
+                            Nous Parents Solo Lyon
+                            <img src="logoFacebook.png" width="60" height=auto class="d-inline-block" alt="" loading="lazy">  
+                        </a>
+                    </p>
+                </div>
+            </div>    
+            <!--Carroussel-->
+            <div class="col-row">
+                <div class="col-sm-12 mrgCaroussel"></div>
+                  <div id="carouselExampleFade" class=" col-sm-12 carousel imgCaroussel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                         <img src="adventure-PexelPixabay.jpg" class="d-block w-100" alt="@Pexel Pixabay">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="live-concert-Pixabay.jpg" class="d-block w-100" alt="@Pixabay">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fresh-picnic pexels pixabay.jpg" class="d-block w-100" alt="@Pexels Pixabay">
+                      </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+                  </div>
+                <div class="col-12 mrgCaroussel"></div>
+            </div>       
+              
+         </div> <!--Fin col-8 left-->
+
+
+         <div class="col-sm-4 col-md-8 col-lg-3 right">
+             <!--Recherche évènement-->
+             <div class="rightTop col-12">
+                <balise id="recherche">
+                    <h5>Rechercher</h5>
+                    <!--Type evènement-->
+                    <form action="" class="selecEvent">
+                        <label for="themeEvenement">Thème * (obligatoire)</label>
+                        <select name="themeEvenement" id="ThemeEvenementCherche">
+                        <option value="atelier">Atelier</option>
+                        <option value="culture">Culture</option>
+                        <option value="bienEtre">Bien être</option>
+                        <option value="sport">Sport</option>
+                        <option value="rencontre">Se rencontrer</option>
+                        <option value="info">Informations</option>
+                        <option value="autre">Autre</option>
+                        </select>
+                    </form>
+                    <!--Date-->
+                    <form class="selecEvent" name="DateEventCherche">
+                        <br>
+                        <div class="form-group">
+                            <label for="themeEvenement">Date (facultatif) </label>    
+                            <input type="date" class="form-control" id="DateEventCherche" placeholder="00/00/2000">
+                         </div>
+                        <!-- un autre type trouve sur bootstrap
+                            <a class="dropdown-item" href="#">Something else here</a>-->
+                    </form>
+                    <!--Organisateur-->
+                    <form action="" class="selecEvent">
+                        <label for="organisateur">Organisateur (facultatif)</label>
+                        <select name="organisateur" id="organisateurEvenementCherche">
+                        <option value="NPS">NPS</option>
+                        <option value="Partenaire">Partenaire</option>
+                        <option value="Association">Association</option>
+                        <option value="Famille">Famille NPS</option>
+                        <option value="Groupe">Groupe NPS</option>
+                        </select>
+                    </form>
+                    <!--mot cle-->
+                     <div class="form-group">
+                        <label for="">Mot clé (facultatif)</label>
+                        <input type="texte" class="form-control" id="ChercheMotCleEvent" placeholder="69100 festival">
+                     </div>
+                </balise>    
+                  <!--valider--> 
+                 <div class="col-12 ValiderEvent">
+                    <button type="submit" class="btn btn-primary mb-2 btnChercheEvent">Valider</button>
+                 </div>        
+             </div>
+                 <div class="row">
+                     <div class="col-12 ligne"></div> 
+                </div>    
+           <!--organisez-->
+            <div class="rightBottom">
+                <balise id="organisez"></balise>             
+                <div class="row">
+                    <div class="col-sm-12 TitreOrganiser">
+                        <h5>Organiser</h5>
+                       <p>Toutes les rubriques sont obligatoires :</p>
+                    </div>
+                    <!--Organisateur-->
+                    <div class="col-sm-12 OrganisateurEvent">
+                    <form action="" class="selecEvent">
+                        <label for="organisateur">Organisateur </label>
+                        <select name="organisateur" id="organisateurEvenement">
+                        <option value="Famille">Famille NPS</option>
+                        <option value="Groupe">Groupe NPS</option>
+                        <option value="Partenaire">Partenaire</option>
+                        <option value="Association">Association</option>
+                        </select>
+                    </form>
+                    <!--Nom et Mail-->
+                    <form>
+                        <div class="form-row align-items-center">
+                          <div class="col-12 Nom">
+                              <p>Nom et prénom ou pseuso</p>
+                            <label class="sr-only" for="inlineFormInput">Nom ou pseudo</label>
+                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Nom">
+                          </div>
+                          <div class="col-12 Email">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="x@exemple.fr">
+                          </div>
+                        </div>
+                      </form>
+
+                    </div>
+                    <!--Theme-->
+                    <div class="col-sm-12 ChoixEvent">
+                    <form action="" class="selecEvent">
+                        <label for="themeEvenement">Thème</label>
+                        <select name="themeEvenement" id="ThemeEvenement">
+                        <option value="atelier">Atelier</option>
+                        <option value="culture">Culture</option>
+                        <option value="bienEtre">Bien être</option>
+                        <option value="sport">Sport</option>
+                        <option value="rencontre">Se rencontrer</option>
+                        <option value="info">Informations</option>
+                        <option value="autre">Autre</option>
+                        </select>
+                    </form>
+                    </div>
+                    <!--Date-->
+                    <div class="col-sm-12 DateEvent">
+                        <form class="selecEvent" name="sampleform">
+                        <label for="themeEvenement">Date  
+                        </label>    
+                        <br>
+                        <input type="text" name="firstinput" size=11 placeholder=" 00/00/2000"> <small><a href="javascript:showCal('Calendar1')">Selectionner cette date</a></small>
+                        <!-- un autre type trouve sur bootstrap
+                            <a class="dropdown-item" href="#">Something else here</a>-->
+                        </form>
+                    </div>
+                    <!--description-->
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Description</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <!--Mot cle-->
+                    <div class="form-group col-sm-12">
+                        <label for="">Mot clé</label>
+                        <input type="texte" class="form-control" id="MotCleEvent" placeholder="69003 pique-nique">
+                     </div>
+                     <!--conditions d'utilisation-->
+                     <!--<div class="checkConditions col-12">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="checkCondition" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                          J'accepte la charte organisateur
+                        </label>
+                        <div class="invalid-feedback col-10">
+                        </div> -->
+                    <!--Telecharger -->
+                     <form>
+                        <div class="col-sm-10 telecharger">
+                          <label for="Telecharger" class="txtTelecharger">télécharger</label>
+                          <p>un document ou une image</p>
+                          <input type="file" class="telechargerfichier txtTelecharger" id="telechargefichier">
+                        </div>
+                      </form>
+                    <!--bouton valider-->
+                       <div class="col-sm-12 ValiderEvent">
+                           <button type="submit" class="btn btn-primary mb-2">Valider</button>
+                       </div>                   
+                </div> <!--Row container d'organiser-->     
+             </div>      
+         </div>  <!--div colonne Right-->
+         <!--
+        </div>-->
+    </div> <!--row du container-->
+</div> <!--fermeture container presentation-->
+<div class="col-12 espace"></div>
+
+
+
+<div class=" container container2">
+    <div class="row container2"> 
+         <!--presentation-->
+         <div class="col-sm-12 col-lg-12 bodyEvent">
+             <!--<h2>Evènements Nous Parents Solo Lyon</h2>-->
+             <h3>Tous les évènements Nous Parents Solo Lyon et sa région</h3>
+             <balise id="evenements"></balise>
+            <div col-sm-12></div>   
+             <p> Retrouvez ci-dessous la liste des événements</p>
+                <br>
+            <p class="p1">
+                Ou 
+                <br>
+                 Effectuez une recherche d'évènement
+                 <a class="toggler" href="#recherche">"onglet Rechercher"
+                     <br>
+                 </a> 
+                <br>
+                Organisez votre propre évènement 
+                <a class="toggler" href="#organisez">"onglet Organiser"</a> 
+                <br> 
+            </p>
+        </div> 
+        <div class="col-12 espace2"></div>   
+ 
+        <div class="col-10">
+                <!--cartes encore dans div container-->
+
+ <div class="row row-cols-1 row-cols-md-3">
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
+      <div class="card h-100">
+        <img src="people-saut couchant Fancycrave1 Pixabay.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title cart1Titre">Feu d'artifice du 14 juillet</h5>
+          <p class="card-text carte1text">Reprehenderit sunt totam at natus ex perferendis eveniet, 
+              suscipit cupiditate alias commodi nulla est soluta minus 
+              aperiam voluptatibus cumque in nam. Commodi.
+              <br>Horaires
+              <br>Adresse
+              <br>Nombre maximum de participants: non définit
+          </p>
+          <form class="form-inline my-0 my-lg-0">
+            <a class=" btnInscriptionEvent btn-sm" href="#" role="button"> Inscription </a>
+         </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
+      <div class="card h-100">
+        <img src="picnic- go-presse.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vendredi 17 juillet 2020
+              Repas partagé dans les herbes folles</h5>
+          <h5 class="card1-title">Pique-nic parc Blandan</h5>
+          <br>
+          <p class="card-text">Reprehenderit sunt totam at natus ex perferendis eveniet, 
+              suscipit cupiditate alias commodi nulla est soluta minus 
+              aperiam voluptatibus cumque in nam. Commodi.
+              <br>Horaires
+              <br>Adresse
+              <br>Nombre maximum de participants : non définit
+          </p>
+          <form class="form-inline my-0 my-lg-0">
+            <a class=" btnInscriptionEvent btn-sm" href="#" role="button"> Inscription </a>
+         </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            class="card-text">Reprehenderit sunt totam at natus ex perferendis eveniet, 
+            suscipit cupiditate alias commodi nulla est soluta minus 
+            aperiam voluptatibus cumque in nam. Commodi.
+            <br>Horaires
+            <br>Adresse
+            <br>Nombre maximum de participants
+          </p>
+          <form class="form-inline my-0 my-lg-0">
+            <a class=" btnInscriptionEvent btn-sm" href="#" role="button"> Inscription </a>
+         </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            class="card-text">Reprehenderit sunt totam at natus ex perferendis eveniet, 
+            suscipit cupiditate alias commodi nulla est soluta minus 
+            aperiam voluptatibus cumque in nam. Commodi.
+            <br>Horaires
+            <br>Adresse
+            <br>Nombre maximum de participants
+          </p>
+          <form class="form-inline my-0 my-lg-0">
+            <a class=" btnInscriptionEvent btn-sm" href="#" role="button"> Inscription </a>
+         </form>
+        </div>
+      </div>
+    </div>
+   </div>
+  <!--fin cartes-->
+
+        </div> <!--col 10 des cartes body-->
+    </div> <!--row des cardes)-->
+</div>   <!--container-->
+
+<div class="row">
+  <div class="col-sm-12 basPage">
+  </div>
+</div>
+
+<!--Footer-->
+<div class="container-fluid">
+    <div class="NavFixBottom row">
+      <nav class="navbar fixed-bottom navFooter">
+    
+          <!--Boutons Inscription connexion-->
+          <div class="nav navBTN col-3" >
+              <form class="form-inline my-0 my-lg-0">
+                  <a class="btnFooterInscrip btn-sm" href="Inscription.html" role="button"> Inscription </a>
+                      <p> _ </p>
+                  <a class=" btnFooterConnex btn-sm" href="Inscription.html" role="button"> Connexion </a>
+               </form>
+          </div>
+          <!--NavItemsFooter-->
+          <div class="NavItemsFooter col-6">
+                  <a class="btn btnFAQ my-0 my-lg-0 mt-2 mb-2" href="aideFAQ.html" role="button">FAQ-aide</a>
+                  <a class="logoFooter" href="index.html">
+                      <img src="LogoNPS1.png" width="100" height=auto alt="" loading="lazy">  
+                  </a>
+                  <a class="btn btnContact my-0 my-lg-0 mt-2 mb-2" href="contact.html" role="button">Contact</a>
+          </div>
+          <!--Bouton Profil-->
+          <div class="btnProfilFooter col-3">
+              <a class="btn btnProfil" href="profil.html" role="button">Mon profil</a>
+          </div>  
+      </nav>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
+

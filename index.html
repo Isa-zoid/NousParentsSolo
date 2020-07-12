@@ -22,14 +22,7 @@
       <form class="form-inline my-2 my-lg-0">
         <a class="navbar-brand logoNav LogoNav" href="index.html">
             <img src="LogoNPS1.png" width="250" height=auto class="d-inline-block align-top" alt="" loading="lazy">  
-        </a>
-    <!--     
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>  
-            <a class="btn btn-outline-dark" href="#" role="button">Inscription</a>
-            <a class="btn btn-outline-danger" href="#" role="button">Connexion</a> 
-    -->   
+        </a>  
       </form>
     </div>  
 
@@ -45,13 +38,13 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="#">Evènements</a>
+                <a class="nav-link" href="evenement.html">Evènements</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Annonces</a>
+                <a class="nav-link" href="annonce.html">Annonces</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Articles</a>
+                <a class="nav-link" href="article.html">Articles</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="Communaute.html">Communauté</a>
@@ -81,7 +74,7 @@
 
 <!--Img Header-->
 <div class="container-fluid imgHeader">
-
+<!--img Saut ombre-->
  <div class="row no-margin">
      <div class="col-6 no-margin imgSaut">
          <img class="imgHeader" src="SautOmbreGordonJohnsonPixabayRecadre.png" alt="">
@@ -90,7 +83,8 @@
         <img class="imgHeader" src="SautOmbreGordonJohnsonPixabayRecadre.png" alt="">
      </div>
  </div>     
-
+<!--img Taches-->
+   <!--pb cette col-12 crée marges mais permet caller mes col-3...-->
  <div class="col-12 tachesTotal form-inline">
     <div class="col-3 taches form-inline">
          <img src="Taches-multicolores-fond-blanc-etire.jpg" alt="">
@@ -104,128 +98,162 @@
     <div class="col-3 taches form-inline">
         <img src="Taches-multicolores-fond-blanc-etire.jpg" alt="">
     </div>
- </div>
-
-
-  <div class="row shadow"> <!--Vérifier que cette div est fermée!!-->
-<!--     
-     <div class="col-12 piedFoule"></div> -->
-<!--Titres-->     
+ </div>   
+</div> 
+<!--Fermeture div container-fluid imgHeader après avoir vu avec Rama-->
+  
+<!--Titres--> 
+<div class="row"> 
      <div class="col-12">
          <h1>Nous Parents Solo</h1>
-         <h3>Nous parents solo, qu'est ce que c'est?</h3>
+         <h3>Nous parents solo Lyon, qu'est ce que c'est?</h3>
      </div>
+</div>
 
-<!--Cartes-->
-  <div class="row">
-    <div class="col-12 card-groupe">
-        <div class="card col-3 card-accueil mb-3 border-dark"> <!-- class="mb-3" style="max-width:"-->
-            <div class="card bg-transparent">
-                
-            <div class="card-body card-corps bg-transparent"> 
+<!--Cartes--> <!--Creation container Card avec Rama-->
+<div class="container">     
+  <div class="row card-groupe">
+
+        <div class="card card-accueil col-12 col-lg-3 mb-3 shadow"> <!-- class="mb-3" style="max-width:"-->
+           <!--<div class="card bg-transparent"> En l'enlevant j'ai plus le petit liseret gris-->     
+            <div class="card-corps bg-transparent"> 
+                <h2>Nous Parents Solo :</h2>
                 <h5 class="card-title">
-                    Nous parents solo c'est : enrichissant, gratuit, libre, serein.
+                   gratuit, enrichissant, serein et libre
                 </h5>
                 <p class="card-text">
-                    Gratuité : par ce que les parents solo ne roulent généralement pas sur l'or,
-                ici tout est gratuit. Vous vous offrez du temps, et vous offrez des copains à vos
-                enfants lorsqu'ils sont avec vous.
-               Confiance : Par ce que la sérénité est notre objetif, surtout lorsqu'on est mono parental.
-                Nous parents solo c'est une solution créée par des parents solo, pour les parents solo. 
-                Grace aux évènements, prenez le temps de vous rencontrer. 
-                Vous êtes pressé(e)? Vérifiez les avis.
-               Liberté : Gérez vous-même votre réseau de babysitting. Misez sur le troc,
-                tournez vous vers notre réseau de baby-sitter professionnels,
-                ou encore créditez votre compte temps avec de l'argent (10€ de l'heure),
-                tous les choix sont permis. 
-               Enrichissement : comme tous les parents vous partagez ce que vous aimez et savez faire avec vos enfants?
-                Nous parents solo offre à vos enfants la possibilité de découvrir d'autres activités
-                et savoirs faire grace à l'échange de temps passé ensemble.</p>
+                    <strong>Gratuité</strong> : si vous troquez tout est gratuit. 
+                    Vous vous offrez du temps, et vous offrez 
+                    des copains à vos enfants.
+                    <br>
+                    <strong>Enrichissant</strong> : comme tous les parents vous partagez
+                    des activités avec vos enfants?
+                    Le système Nous parents solo offre à vos enfants 
+                    la possibilité de découvrir d'autres activités
+                    grace au troc de garde.
+                    <br>
+                    <strong>Confiance et sérénité</strong> : Nous parents solo 
+                    c'est une solution créée par et pour des parents solo. 
+                    Grace aux évènements, les familles se rencontrent 
+                    et créent des liens de confiance. 
+                    Vous n'avez pu participer aux évènements ? 
+                    Vérifiez les avis.
+                    <br>
+                    <strong>Liberté</strong> : Gérez vous-même votre réseau de babysitting. 
+                    Misez sur le troc c'est gratuit. Sinon tournez vous vers notre réseau de baby-sitter professionnels,
+                    ou encore créditez votre compte temps (10€ de l'heure),
+                    tous les choix sont permis. 
+                    </p>
+                    <img src="mains-multicolores-visages-souriants-peint.jpg" class="card-img-bottom" alt="...">
+                    <p class="card-text auteur">
+                        <small class="text-muted">
+                            Crédit photo : Pixabay
+                        </small>
+                    </p>
+            </div>
+            <!--</div> card bg-transparent enlevé-->
+        </div>        
+        <!--je vire ces col-1 avec Rama--><div class="col-1"></div>
+        <div class="card card-accueil col-12 col-lg-3 mb-3 ml-auto shadow"> <!--class="mb-3" style="max-width:"-->
+            <!--<div class="card bg-transparent">   -->           
+            <div class="card-corps bg-transparent"> 
+                <h2>Nous Parents Solo :</h2>
+                <h5 class="card-title">des échanges de babysitting
+                </h5>
                 <p class="card-text">
-                    <small class="text-muted">
-                    </small>
-                </p>
+                    <strong>Nous parents solo</strong> : un réseau de confiance 
+                    pour l'enrichissement 
+                    et l'épanouissement de chacun par <strong>le troc.</strong>
+                    <br>
+                    Par ce qu'être parent solo c'est souvent devoir gérer 
+                    seul :
+                    <strong>organisons nous ensemble, </strong>
+                    échangeons, partageons et troquons.
+                    <br>
+                    « Vous récupérez vos enfants à la sortie 
+                    de l'école lundi soir ? Offrez leur 
+                    des copains, et à charge de revanche 
+                    pour mercredi après-midi ! Vous avez troqué
+                    avec une autre famille qui les emmenera
+                    à la piscine». 
+                    <br>
+                    Avec la <strong>communauté Nous parents solo, 
+                    </strong>cessez de courir, offrez vous enfin un peu 
+                    de temps pour vous et économisez plus de 1500 Euros 
+                    chaque année en encourageant notre 
+                    <strong>plateforme solidaire et participative</strong>.
+                    Ensemble soutenons la gratuité, la collaboration et 
+                    le partage, pour le bien de tous 
+                    et l'épanouissement de chacun.</p>
                 <img src="groupe-mains-diverses-multiethniques-levees.jpg" class="card-img-bottom" alt="...">
-            </div>
-            </div>
-        </div>    
-        <div class="col-1"></div>
-        <div class="card col-3 card-accueil border-dark mb-3"> <!--class="mb-3" style="max-width:"-->
-            <div class="card bg-transparent">
-                
-            <div class="card-body card-corps bg-transparent"> <!--pas enlevé TRANSPARENT-->
-                <h5 class="card-title">Avec nous parents solo réalisez des échanges de babysitting.
-                </h5>
-                <p class="card-text">
-                    Nous parents solo c'est un réseau de confiance visant 
-                    à favoriser le troc, 
-                l'échange et l'épanouissement de tous en toute sérénité.
-                Par ce qu'être parent solo demande une sacré organisation,
-                par ce qu'être parent solo c'est souvent beaucoup devoir gérer seul,
-                organisons nous ensemble, échangeons, partageons.
-                « Vous récupérez vos enfants à la sortie de l'école lundi soir ? 
-                Offrez leur des copains. 
-                Et à charge de revanche pour mercredi après-midi ! ». 
-                
-                Nous parents solo c'est une communauté de confiance qui vous 
-                permet de trouver des solutions à vos soucis
-                et organiser un peu de temps pour vous.
-
-                Avec Nous parents solo, cessez de courir, offrez vous un peu de 
-                temps et économisez plus de 1500 Euros chaque année
-                en encourageant notre plateforme solidaire et participative.
-                Ensemble mettons en avant la gratuité, la collaboration, 
-                l'entraide au sein d'une communauté de confiance pour le bien 
-                de tous et l'épanouissement de chacun.</p>
-                <p class="card-text">
+                <p class="card-text Auteur">
                     <small class="text-muted">
-                        Last updated 3 mins ago
+                        Crédit photo : Pixabay
                     </small>
                 </p>
-                <img src="mains-multicolores-visages-souriants-peint.jpg" class="card-img-bottom" alt="...">
-            </div>
+            <!--</div> fermeture de la div br transparent carte dans carte -->
             </div>
         </div>
-        <div class="col-1">
-        </div>
-        <div class="card card-accueil col-3 border-dark mb-3"> <!--class="mb-3" style="max-width:"-->
-            <div class="card bg-transparent">
-                
-            <div class="card-body card-corps bg-transparent"> <!--pas enlevé TRANSPARENT-->
+        <!--je vire ces col-1 avec Rama remet car pb justify-->        <div class="col-1"></div> 
+        <div class="card card-accueil col-12 col-lg-3 mb-3 ml-auto shadow"> <!--class="mb-3" style="max-width:"-->
+            <!--<div class="card bg-transparent">   -->            
+            <div class="card-corps bg-transparent"> <!--pas enlevé TRANSPARENT-->
+                <h2>Nous Parents Solo :</h2>
                 <h5 class="card-title">
-                    Nous parents solo : une communauté, des évènements, 
-                    et votre groupe d'ami(e)s
+                     une communauté,  
+                    et des groupes d'ami(e)s
                 </h5>
                 <p class="card-text">
-                    Vous souhaitez apprendre, partager votre passion, ou 
-                    simplement vivre un moment avec d'autres parents?
-                avec nous parents solo participez à un évènement ou, avec 
-                notre plateforme ou nos partenaires organisez votre propre évènement.
-               Entre nous : Réactif, enrichissant et très économique, Nous parent 
+                    Vous souhaitez partager votre passion,
+                    ou vos compétences? 
+                    <br> Vous souhaitez vous 
+                    enrichir et 
+                    apprendre des autres? 
+                    <br>
+                    Vous aimeriez participer à des moment 
+                    de sociabilité avec d'autres parents?
+                    <strong>
+                    <br>Inscrivez-vous à un évènement Nous Parents Solo!
+                    </strong>
+                    <br> Ou encore, grace à notre 
+                    plateforme, notre réseau et nos 
+                    partenaires : <br>
+                    <strong> organisez votre propre évènement</strong>.
+                    <br>
+                    Rencontrez d'autre solo, gérez vos contacts, 
+                    communiquez,
+                    <strong> créez ou rejoignez des groupes </strong>
+                    pour vous retrouver, partager des infos et
+                     des activités. <strong>
+                    Nous Parents Solo c'est une communauté
+                    pour échanger et se rencontrer.</strong>
+                    Pratique, enrichissant et très économique, Nous parent 
                solo vous permet de contacter en un clic l'ensemble de votre cercle 
                d'amis.</p>
-                <p class="card-text">
+                <img src="espace-amis-couvrant-visage-emoji.jpg" class="card-img-bottom" alt="...">
+                <p class="card-text Auteur">
                     <small class="text-muted">
-                        Last updated 3 mins ago
+                        Crédit photo : Pixabay
                     </small>
-                </p>
-                <img src="groupe-femmes-tenant-bulles.jpg" class="card-img-bottom" alt="...">
+                </p>       
             </div>
-            </div>
+            <!--</div> div br transparent otée-->
         </div>
-    </div>
-  </div>   
+  </div> <!--Fermeture row des cartes-->   
+</div> <!--Fermeture container card-->
 
-      <div class="row">
-          <div class="col-12 basPage">
-          </div>
+    <div class="row">
+      <div class="col-12 basPage">
       </div>
+    </div>
+
+
 
 <!--Footer-->
 <div class="container-fluid">
     <div class="NavFixBottom row">
       <nav class="navbar fixed-bottom navFooter">
-  
+    
           <!--Boutons Inscription connexion-->
           <div class="nav navBTN col-3" >
               <form class="form-inline my-0 my-lg-0">
@@ -236,7 +264,7 @@
           </div>
           <!--NavItemsFooter-->
           <div class="NavItemsFooter col-6">
-                  <a class="btn btnFAQ my-0 my-lg-0 mt-2 mb-2" href="profil.html" role="button">FAQ-aide</a>
+                  <a class="btn btnFAQ my-0 my-lg-0 mt-2 mb-2" href="aideFAQ.html" role="button">FAQ-aide</a>
                   <a class="logoFooter" href="index.html">
                       <img src="LogoNPS1.png" width="100" height=auto alt="" loading="lazy">  
                   </a>
@@ -245,12 +273,12 @@
           <!--Bouton Profil-->
           <div class="btnProfilFooter col-3">
               <a class="btn btnProfil" href="profil.html" role="button">Mon profil</a>
-          </div>
-      
+          </div>  
       </nav>
     </div>
-  
-  </div>
+</div>
+
+
   
   
   
